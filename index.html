@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>dong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="dong">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="dong">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="dong">
+  
+    <link rel="alternate" href="/atom.xml" title="dong" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">dong</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-HTML+CSS3第一天" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/04/HTML+CSS3第一天/" class="article-date">
+  <time datetime="2016-12-03T16:00:00.000Z" itemprop="datePublished">2016-12-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/12/04/HTML+CSS3第一天/">HTML第一天</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="DOCTYPE标签"><a href="#DOCTYPE标签" class="headerlink" title="DOCTYPE标签"></a>DOCTYPE标签</h1><h2 id="DOCTYPE的作用"><a href="#DOCTYPE的作用" class="headerlink" title="DOCTYPE的作用"></a>DOCTYPE的作用</h2><blockquote>
+<p>一个标准的<code>HTML</code>文档,开头第一句都应该是<code>&lt;!DOCTYPE&gt;</code>,根据<code>HTML</code>版本的不同,写法上会有所差别.</p>
+<ul>
+<li>tips:<ul>
+<li><code>DOCTYPE</code>并不是<code>HTML标签</code>,而是一个<code>声明</code></li>
+<li>作用是:告诉浏览器按照哪个规则去解析页面</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h2 id="DOCTYPE写法-HTML4中"><a href="#DOCTYPE写法-HTML4中" class="headerlink" title="DOCTYPE写法_HTML4中"></a>DOCTYPE写法_HTML4中</h2><blockquote>
+<p>在HTML4.01中有三种DOCTYPE声明,但是随着技术的发展,这几种写法很少使用了,在一些老的网站中才可以看到</p>
+</blockquote>
+<p><br></p>
+<ul>
+<li><strong>1.HTML 4.01 Strict</strong><br><strong>Emmet语法为:</strong> html:4s <code>tab</code></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;</div></pre></td></tr></table></figure>
+<p><br></p>
+<ul>
+<li><strong>2.HTML 4.01 Transitional</strong><br><strong>Emmet语法为:</strong> html:4t <code>tab</code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; </div><div class="line">&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>3.HTML 4.01 Frameset</strong><br>没有找到对应的<code>Emmet</code>语法<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Frameset//EN&quot; </div><div class="line">&quot;http://www.w3.org/TR/html4/frameset.dtd&quot;&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="DOCTYPE写-法-HTML5中"><a href="#DOCTYPE写-法-HTML5中" class="headerlink" title="DOCTYPE写/法_HTML5中"></a>DOCTYPE写/法_HTML5中</h2><p><strong>Emmet语法为:</strong><code>html:5+tab</code>或者<code>!+tab</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div></pre></td></tr></table></figure>
+<h2 id="Emmet语法创建文档结构"><a href="#Emmet语法创建文档结构" class="headerlink" title="Emmet语法创建文档结构"></a>Emmet语法创建文档结构</h2><ul>
+<li><code>html:5</code>或<code>!</code>：HTML5文档类型</li>
+<li><code>html:xt</code>：XHTML过渡型文档类型</li>
+<li><code>html:xs</code>：XHTML严格型文档类型</li>
+<li><code>html:4t</code>：HTML4过渡型文档类型</li>
+<li><p><code>html:4s</code>：HTML4严格型文档类型</p>
+</li>
+<li><p><strong>使用演示</strong><br><img src="imgs/desk.jpg" alt="emmet语法演示"></p>
+</li>
+</ul>
+<h1 id="HTML5编码"><a href="#HTML5编码" class="headerlink" title="HTML5编码"></a>HTML5编码</h1><blockquote>
+<p>在<code>HTML4.01</code>中对于编码格式要求较高，比如大小写，比如<code>style</code>标签，<code>script</code>标签的定义都有许多需要注意的地方,但是在<code>HTML5</code> 中却简洁很多</p>
+</blockquote>
+<h2 id="Html代码测试"><a href="#Html代码测试" class="headerlink" title="Html代码测试"></a>Html代码测试</h2><blockquote>
+<p>为了比较<code>HTML5</code>和<code>HTML4.01</code>的差异，我们可以使用不同的<code>Doctype</code>写入相同的内容进行比较</p>
+</blockquote>
+<ul>
+<li>建议使用新式浏览器进行测试</li>
+<li><strong>比如</strong>：<ul>
+<li>大于等于ie9</li>
+<li>Chrome</li>
+<li>Firefox</li>
+<li>Opera</li>
+<li>Safari</li>
+</ul>
+</li>
+</ul>
+<p><strong>代码1（HTML4.01 4s版本）</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">IMG</span> <span class="attr">src</span>=<span class="string">"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><br><br><strong>代码2（HTML5）</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!doctype html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">IMG</span> <span class="attr">src</span>=<span class="string">"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="测试方法1：直接在浏览器中运行"><a href="#测试方法1：直接在浏览器中运行" class="headerlink" title="测试方法1：直接在浏览器中运行"></a>测试方法1：直接在浏览器中运行</h3><ul>
+<li><strong>测试效果：</strong><ul>
+<li>如果不考虑图片显示的正确性我们能够看到的显示效果是一样的</li>
+<li>这是因为新式浏览器对于<code>HTML</code>代码的包容，细微的差异浏览器内部直接就处理了，但是在<code>ie6</code>时代的前端工程师却不是这样的</li>
+</ul>
+</li>
+<li><strong>拓展阅读：</strong><ul>
+<li><a href="http://www.zhihu.com/topic/19564944/top-answers" target="_blank" rel="external">ie6知乎精华回答</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="测试方法2：使用w3c测试网站"><a href="#测试方法2：使用w3c测试网站" class="headerlink" title="测试方法2：使用w3c测试网站"></a>测试方法2：使用w3c测试网站</h3><ul>
+<li><strong>测试网址：</strong><ul>
+<li><a href="https://validator.w3.org/" target="_blank" rel="external">w3c编码规范测试</a><br> <br></li>
+</ul>
+</li>
+<li><strong>测试方式：</strong><ul>
+<li>如图所示<img src="imgs/desk.jpg" alt="测试HTML代码.png-54kB"></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>测试效果：</strong><ul>
+<li>html4错误信息<br><img src="imgs/meter.png" alt="html4错误代码.png-48.4kB"><br><br></li>
+<li>html5错误信息<br><img src="https://github.com/getlantern/lantern" alt="html5错误代码.png-38.7kB"><br><br></li>
+</ul>
+</li>
+</ul>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a><strong>结语</strong></h2><ul>
+<li><code>HTML5</code>相比于<code>HTML4.01</code>时代.编码风格更为简洁,当然改变不仅于此。</li>
+</ul>
+<h1 id="新的语义标签"><a href="#新的语义标签" class="headerlink" title="新的语义标签"></a>新的语义标签</h1><p>标签（空格分隔）： HTML5</p>
+<blockquote>
+<p>在学习<code>HTML</code>时，有个概念一定要清楚，就是最全的帮助文档不是什么<code>XXXHTML大全</code>,<code>三天掌握CSS</code> 等等这一类的书，而是<code>w3cSchool</code></p>
+</blockquote>
+<ul>
+<li><strong>w3cschool</strong><ul>
+<li>盈科中国：<a href="http://www.w3school.com.cn/" target="_blank" rel="external">w3school</a></li>
+<li>W3C中国：<a href="http://www.w3cschool.cn/index-4.html" target="_blank" rel="external">w3cschool</a><br><br></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">上面两个网站长得差不多，但是是不同的网站哦！！</div></pre></td></tr></table></figure>
+<h2 id="HTML5新的标签"><a href="#HTML5新的标签" class="headerlink" title="HTML5新的标签"></a>HTML5新的标签</h2><ul>
+<li><p>HTML5新标签查看地址：<a href="http://www.w3cschool.cn/html5_reference.html" target="_blank" rel="external">点我查看</a></p>
+<ul>
+<li>我们能够看到有一个很长的表格</li>
+<li><code>HTML5</code>的特有标签查看方式：</li>
+</ul>
+<p><img src="imgs/desk.jpg" alt="HTML5新标签.png-22.2kB"></p>
+</li>
+</ul>
+<h2 id="语义标签"><a href="#语义标签" class="headerlink" title="语义标签"></a>语义标签</h2><blockquote>
+<p>举个例子，语义标签就是标签本身代表了一定的含义</p>
+</blockquote>
+<ul>
+<li><code>HTML4.01</code><ul>
+<li>语义标签<ul>
+<li>p标签：段落</li>
+<li>img标签：图片</li>
+<li>……等等</li>
+</ul>
+</li>
+<li>语义性不强的：<ul>
+<li>div:作为容器存在<ul>
+<li>在网站布局中使用广泛</li>
+<li>搜索引擎友好，但是搜索引擎更友好的依旧是内容</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="HTML5部分新语义标签"><a href="#HTML5部分新语义标签" class="headerlink" title="HTML5部分新语义标签"></a>HTML5部分新语义标签</h2><blockquote>
+<p>HTML5中有部分语义标签，在使用时十分简单，但是由于语义性更强，更利于<code>开发者</code>以及<code>搜索引擎</code>对于网页的理解。</p>
+</blockquote>
+<ul>
+<li>语义标签：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>nav</td>
+<td>表示导航</td>
+</tr>
+<tr>
+<td>header</td>
+<td>表示页眉</td>
+</tr>
+<tr>
+<td>footer</td>
+<td>表示页脚</td>
+</tr>
+<tr>
+<td>main</td>
+<td>文档主要内容</td>
+</tr>
+<tr>
+<td>article</td>
+<td>文章</td>
+</tr>
+<tr>
+<td>aside</td>
+<td>主题内容之外</td>
+</tr>
+<tr>
+<td>footer</td>
+<td>文档或者页的页脚</td>
+</tr>
+</tbody>
+</table>
+<h2 id="实际应用"><a href="#实际应用" class="headerlink" title="实际应用"></a>实际应用</h2><ul>
+<li>如果我们布局如下页面<br><img src="imgs/meter.png" alt="网页布局.png-11.1kB"></li>
+<li>HTML4.01中代码：<ul>
+<li>由于篇幅问题，这里只贴出body内代码</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--头部start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"header"</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--导航start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"nav"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航1<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航2<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航3<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--导航end--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--头部end--&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!--主体start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"main"</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--文章start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"article"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--文章end--&gt;</span></div><div class="line"></div><div class="line">    <span class="comment">&lt;!--侧边栏start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"aside"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--侧边栏end--&gt;</span></div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--主体end--&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!--底部start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"footer"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--底部end--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div></pre></td></tr></table></figure>
+<p><br></p>
+<ul>
+<li>HTML5中代码：<ul>
+<li>这里直接使用新学习的语义标签</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--头部start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--导航start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">nav</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航1<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航2<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span>&gt;</span>导航3<span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">nav</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--导航end--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">header</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--头部end--&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!--主体start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--文章start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">article</span>&gt;</span><span class="tag">&lt;/<span class="name">article</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--文章end--&gt;</span></div><div class="line"></div><div class="line">    <span class="comment">&lt;!--侧边栏start--&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">aside</span>&gt;</span><span class="tag">&lt;/<span class="name">aside</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!--侧边栏end--&gt;</span></div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">main</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--主体end--&gt;</span></div><div class="line"></div><div class="line"><span class="comment">&lt;!--底部start--&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span><span class="tag">&lt;/<span class="name">footer</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--底部end--&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>使用HTML5中新的语义标签,内容更为直观,即使删除了注释,依旧能够看出该标签的作用,<code>语义性</code>更强</li>
+<li>说的通俗一些,<code>内容一样,但是代码更少了_OHYeah</code></li>
+</ul>
+<h1 id="H5新语义标签兼容性"><a href="#H5新语义标签兼容性" class="headerlink" title="H5新语义标签兼容性"></a>H5新语义标签兼容性</h1><blockquote>
+<p>虽然HTML5为我们提供了很多一些新的语义标签,但老版本的浏览器并这些内容,比如<code>老式iE</code>就不支持新语义标签</p>
+</blockquote>
+<h2 id="低版本IE显示问题"><a href="#低版本IE显示问题" class="headerlink" title="低版本IE显示问题"></a>低版本IE显示问题</h2><ul>
+<li>测试代码</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        header&#123;</div><div class="line">            height: 100px;</div><div class="line">            background-color: orangered;</div><div class="line">        &#125;</div><div class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">header</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">header</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>低版本IE测试方式:</strong><ul>
+<li>如果使用的是高版本的iE,比如<code>ie11</code>其内部能够调节ie的显示版本</li>
+<li>打开浏览器-&gt;F12呼出开发者界面-&gt;选择<code>仿真</code>-&gt;选择浏览器版本<br><img src="imgs/desk.jpg" alt="ie_test.gif-593.1kB"></li>
+</ul>
+</li>
+<li><strong>测试效果:</strong><ul>
+<li>在版本<code>小于等于ie8</code>时,<code>header</code>标签就无法显示</li>
+</ul>
+</li>
+</ul>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><h3 id="js代码创建标签"><a href="#js代码创建标签" class="headerlink" title="js代码创建标签"></a><strong>js代码创建标签</strong></h3><ul>
+<li>在页面中添加创建<code>header</code>标签的代码</li>
+<li>修改header的样式,添加<code>display:block</code></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        header&#123;</div><div class="line">            height: 100px;</div><div class="line">            background-color: orangered;</div><div class="line">            /*在低版本的ie中,如果想要显示h5的新语义标签,需要设置为block*/</div><div class="line">            display: block;</div><div class="line">        &#125;   </div><div class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></div><div class="line">        // 使用代码创建header标签</div><div class="line">      document.createElement("header");</div><div class="line">    <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--</span></div><div class="line">    在老版本的ie中无法查看(ie8)</div><div class="line">--&gt;</div><div class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">header</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h3 id="优化代码执行–hack写法"><a href="#优化代码执行–hack写法" class="headerlink" title="优化代码执行–hack写法"></a><strong>优化代码执行–hack写法</strong></h3><blockquote>
+<p>无论是js,或者js框架都需要执行js代码才能够解决兼容性问题,但是在高版本的浏览器中,那段js代码就没有必要执行了,所以我们通过一个叫做<a href="http://baike.baidu.com/link?url=-Ae_GC-RlJ0jJPuJlZY7O_pJPgam0H7t_XYKPGp_u7l4XI7Ic-JT1cmJPvJB1dgbOL-RG_vZflKWTIy0hNfW5_" target="_blank" rel="external">hack</a>的方式来减少性能的浪费</p>
+</blockquote>
+<ul>
+<li><strong>用法:</strong><ul>
+<li>使用 hack语法 将需要执行的js的代码包裹起来</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;!--[if lte IE 8]&gt;</div><div class="line">&lt;script&gt;</div><div class="line">    alert(&quot;这段js代码执行了&quot;);</div><div class="line">&lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div></pre></td></tr></table></figure>
+<ul>
+<li><strong>更多语法:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"> <span class="comment">&lt;!--[if lte IE 7]&gt;</span></div><div class="line">    &lt;script&gt;</div><div class="line">        alert("这段js代码执行了");</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div><div class="line"> IE7及IE7以下的IE6、IE5.x可识别</div><div class="line"> </div><div class="line"> <span class="comment">&lt;!--[if gte IE 7]&gt;</span></div><div class="line">    &lt;script&gt;</div><div class="line">        alert("这段js代码执行了");</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div><div class="line"> IE7及IE7以上的IE8、IE9可识别</div><div class="line"> </div><div class="line"> <span class="comment">&lt;!--[if lt IE 7]&gt;</span></div><div class="line">    &lt;script&gt;</div><div class="line">        alert("这段js代码执行了");</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div><div class="line"> IE7以下的IE6、IE5.x可识别  </div><div class="line"> </div><div class="line"> <span class="comment">&lt;!--[if gt IE 7]&gt;</span></div><div class="line">    &lt;script&gt;</div><div class="line">        alert("这段js代码执行了");</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div><div class="line">IE7以上的IE8、IE9可识别</div><div class="line"> </div><div class="line"> <span class="comment">&lt;!--[if IE 7]&gt;</span></div><div class="line">    &lt;script&gt;</div><div class="line">        alert("这段js代码执行了");</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;![endif]--&gt;</div><div class="line"> 只有IE7可以识别</div></pre></td></tr></table></figure>
+<h3 id="js框架"><a href="#js框架" class="headerlink" title="js框架"></a>js框架</h3><ul>
+<li>直接导入js框架,js框架内部干的事情类似于我们刚刚写的js代码,但是处理的逻辑会多一些</li>
+<li><a href="https://github.com/aFarkas/html5shiv" target="_blank" rel="external">js框架”html5shiv”获取地址</a></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        header&#123;</div><div class="line">            height: 100px;</div><div class="line">            background-color: orangered;</div><div class="line">            /*在低版本的ie中,如果想要显示h5的新语义标签,需要设置为block*/</div><div class="line">            display: block;</div><div class="line">        &#125;</div><div class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"></div><div class="line">   <span class="comment">&lt;!--使用js框架来解决html5新语义标签的方法--&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"js/html5shiv.min.js"</span>&gt;</span><span class="undefined"></span></div><div class="line">   <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="comment">&lt;!--</span></div><div class="line">    在老版本的ie中无法查看(ie8)</div><div class="line">--&gt;</div><div class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">header</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><h1 id="input标签的新type属性"><a href="#input标签的新type属性" class="headerlink" title="input标签的新type属性"></a>input标签的新type属性</h1></li>
+</ul>
+<ul>
+<li><p>首先让我们来看一张表</p>
+<ul>
+<li>更详细内容请查阅网址:<a href="http://www.w3school.com.cn/html5/att_input_type.asp" target="_blank" rel="external">w3cSchool-h5-type</a></li>
+</ul>
+<p><img src="imgs/desk.jpg" alt="HTML5中的type.png-133.3kB"></p>
+</li>
+<li><p>其中标有<code>红色5</code>的代表<code>HTML5</code>中推出的</p>
+</li>
+</ul>
+<ul>
+<li><strong>测试代码:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined"></span></div><div class="line">        form &#123;</div><div class="line">            width: 80%;</div><div class="line">            background-color: #F7F7F7;</div><div class="line">        &#125;</div><div class="line">        label &#123;</div><div class="line">            display: block;</div><div class="line">            width: 80%;</div><div class="line">            margin: 0 auto;</div><div class="line">            font-size: 30px;</div><div class="line">            font-weight: bold;</div><div class="line">        &#125;</div><div class="line">        input &#123;</div><div class="line">            display: block;</div><div class="line">            width: 80%;</div><div class="line">            margin: 0 auto;</div><div class="line">        &#125;</div><div class="line">    <span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">fieldset</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">legend</span>&gt;</span>测试type属性</div><div class="line">        <span class="tag">&lt;/<span class="name">legend</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>color:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"color"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>date:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"date"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>datetime:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"datetime"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>datetime-local:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"datetime-local"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>month:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"month"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>week:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"week"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>time:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"time"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>email:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>number:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>range:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"range"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>search:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"search"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">""</span>&gt;</span>tel:</div><div class="line">        <span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">fieldset</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><p><strong>运行效果:</strong></p>
+<p> <img src="imgs/meter.png" alt="input新type属性.png-56.9kB"></p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">* 点击不同`type`的`input`标签会有不一样的弹出内容</div></pre></td></tr></table></figure>
+<p>  ​</p>
+<ul>
+<li><em>兼容性问题:*</em><ul>
+<li>由于ie的兼容性问题,在不同的浏览器中显示效果不尽相同</li>
+<li>但是在移动设备上的支持效果较好,可以将该页面发送到手机进行测试</li>
+<li>实际开发中可以按照需求选用</li>
+</ul>
+</li>
+</ul>
+<h1 id="input表单验证"><a href="#input表单验证" class="headerlink" title="input表单验证"></a>input表单验证</h1><blockquote>
+<p>用户在输入内容的时候不可能做到全部正确,比如<code>email地址``电话长度</code>等等都有可能出现输入错误,试想一下,当用户辛辛苦苦的输入了10多个表单内容,点击提交由于输入错误,内容被清空了(<code>求用户内心阴影面积</code>)</p>
+</blockquote>
+<h2 id="w3cSchool-查阅位置"><a href="#w3cSchool-查阅位置" class="headerlink" title="w3cSchool 查阅位置"></a>w3cSchool 查阅位置</h2><blockquote>
+<p>下面把api文档的查阅位置添加如下</p>
+</blockquote>
+<ul>
+<li><a href="imgs/desk.jpg">w3cSchool_事件属性</a></li>
+<li><a href="imgs/meter.png">w3cSchool_input标签</a></li>
+</ul>
+<h2 id="email标签"><a href="#email标签" class="headerlink" title="email标签"></a>email标签</h2><blockquote>
+<p>在<code>H5</code>中的<code>input</code>的新<code>type</code>属性<code>email</code>自带格式验证</p>
+</blockquote>
+<ul>
+<li><strong>示例代码:</strong><ul>
+<li>当我们点击<code>提交按钮</code>时,如果输入的<code>email</code>格式不正确,会弹出提示信息</li>
+<li><code>email</code>标签并不会验证内容是否为空，这个需要注意</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://github.com/getlantern/lantern" alt="email自带提示.png-12.9kB"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"> <span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span>&gt;</span></div><div class="line">    email:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"userEmail"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="required属性"><a href="#required属性" class="headerlink" title="required属性"></a>required属性</h2><blockquote>
+<p>对于没有自带验证效果的标签,就需要手动添加属性增加验证了</p>
+</blockquote>
+<ul>
+<li><strong>使用方法:</strong><ul>
+<li>只需要添加<code>required</code>属性即可,不需要赋值</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong><ul>
+<li>当控件没有输入任何内容直接点击提交时,会弹出提示</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://developer.mozilla.org/zh-CN/" alt="required属性.png-10.5kB"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span>&gt;</span></div><div class="line">    email:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"userEmail"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    tel:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">required</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="pattern-自定义验证规则"><a href="#pattern-自定义验证规则" class="headerlink" title="pattern 自定义验证规则"></a>pattern 自定义验证规则</h2><blockquote>
+<p>使用<code>required</code>标签只能够验证内容是否为空,如果想要验证的更为准确就需要自定义验证规则了</p>
+</blockquote>
+<ul>
+<li><strong>使用方法:</strong><ul>
+<li>在需要添加自定义验证规则的元素中添加<code>required</code>标签</li>
+<li>使用<a href="http://www.w3school.com.cn/jsref/jsref_obj_regexp.asp" target="_blank" rel="external">正则表达式</a>编写验证规则</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong><ul>
+<li>当我们输入的内容跟验证条件不符时,就会弹出对应的提示</li>
+</ul>
+</li>
+</ul>
+<p><img src="imgs/自定义验证.png" alt="自定义验证.png-13.3kB"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span>&gt;</span></div><div class="line">    email:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"userEmail"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    tel:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">required</span> <span class="attr">pattern</span>=<span class="string">"[0-9]&#123;3&#125;"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="自定义验证信息"><a href="#自定义验证信息" class="headerlink" title="自定义验证信息"></a>自定义验证信息</h2><blockquote>
+<p>系统的提示消息只能够提示格式错误,如果想要更为详细的就需要我们通过js来自定义了</p>
+</blockquote>
+<ul>
+<li><strong>使用方法:</strong><ul>
+<li>注册事件:<code>oninput:输入时</code>,<code>oninvalid验证失败</code></li>
+<li>设置自定义信息<code>dom.setCustomValidity(&quot;这里输入提示信息&quot;);</code></li>
+</ul>
+</li>
+<li><strong>示例代码:</strong><ul>
+<li>输入时,会弹出<code>oninput</code>绑定的代码</li>
+<li><img src="imgs/输入中.png" alt="输入中.png-10.7kB"></li>
+<li>验证失败时,会弹出<code>oninvalid</code>绑定的代码<img src="imgs/验证失败.png" alt="验证失败.png-14.2kB"></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"> <span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span>&gt;</span></div><div class="line">    email:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"email"</span> <span class="attr">name</span>=<span class="string">"userEmail"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    tel:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">required</span> <span class="attr">pattern</span>=<span class="string">"[0-9]&#123;3&#125;"</span> <span class="attr">id</span>=<span class="string">"telInput"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">    var telInput = document.getElementById("telInput");</div><div class="line">    // 正在输入时</div><div class="line">    telInput.oninput=function () &#123;</div><div class="line">        this.setCustomValidity("请正确输入哦");</div><div class="line">    &#125;</div><div class="line">    // 验证失败时</div><div class="line">    telInput.oninvalid=function()&#123;</div><div class="line">        this.setCustomValidity("请不要输入火星的手机号好吗？");</div><div class="line">    &#125;;</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li><strong>优点:</strong><ul>
+<li>html5自带的验证使用便捷</li>
+<li>不需要额外的js框架</li>
+</ul>
+</li>
+<li><strong>缺点:</strong><ul>
+<li>兼容性问题</li>
+<li>如果想要兼容所有浏览器,建议使用<code>js验证框架</code></li>
+</ul>
+</li>
+</ul>
+<h1 id="帮助文档使用"><a href="#帮助文档使用" class="headerlink" title="帮助文档使用"></a>帮助文档使用</h1><h2 id="w3cSchool"><a href="#w3cSchool" class="headerlink" title="w3cSchool"></a>w3cSchool</h2><blockquote>
+<p>注意 下面这两个地址是不一样的</p>
+</blockquote>
+<ul>
+<li><a href="imgs/desk.jpg">w3School</a></li>
+<li><a href="imgs/meter.png">w3cSchool</a></li>
+<li>搜索栏使用</li>
+</ul>
+<blockquote>
+<p>需要<code>翻 墙</code> </p>
+</blockquote>
+<ul>
+<li>软件获取地址<a href="https://github.com/getlantern/lantern" target="_blank" rel="external">lantern_github首页</a><ul>
+<li>下载完直接运行即可</li>
+</ul>
+</li>
+</ul>
+<h2 id="Mozilla开发者中心"><a href="#Mozilla开发者中心" class="headerlink" title="Mozilla开发者中心"></a>Mozilla开发者中心</h2><ul>
+<li><a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="external">Mozilla开发者中心</a></li>
+</ul>
+<h1 id="新表单属性"><a href="#新表单属性" class="headerlink" title="新表单属性"></a>新表单属性</h1><blockquote>
+<p>最完整的表单属性可以通过查阅<a href="http://www.w3school.com.cn/html5/html_5_form_attributes.asp" target="_blank" rel="external">w3cschool-h5表单属性</a>获取,这里仅针对常见属性讲解</p>
+</blockquote>
+<h2 id="autocomplete-自动完成"><a href="#autocomplete-自动完成" class="headerlink" title="autocomplete(自动完成)"></a>autocomplete(自动完成)</h2><blockquote>
+<p>能够记录用户的输入,并且给予提示,这就是<code>autocomplete</code>的作用</p>
+</blockquote>
+<ul>
+<li><strong>取值:</strong><ul>
+<li>on:开启</li>
+<li>off:关闭</li>
+</ul>
+</li>
+<li><strong>适用情况:</strong><ul>
+<li>一般用在input标签中</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span> &gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">autocomplete</span>=<span class="string">"on"</span> <span class="attr">name</span>=<span class="string">"userName"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>使用注意:</strong><ul>
+<li>标签需要添加<code>name</code>属性</li>
+<li>只有提交了一次以后才会出现提示</li>
+</ul>
+</li>
+</ul>
+<h2 id="autofocus-获取焦点"><a href="#autofocus-获取焦点" class="headerlink" title="autofocus(获取焦点)"></a>autofocus(获取焦点)</h2><blockquote>
+<p>当某一页有很多个可供输入的元素时,用户需要使用鼠标点选元素进行输入,为了提升用户体验,我们可以通过<code>autofocus</code>属性来指定页面中默认选中的元素</p>
+</blockquote>
+<ul>
+<li><strong>使用方法:</strong><ul>
+<li>需要哪个<code>表单元素</code>获得焦点,只需要添加该属性即可</li>
+<li>不需要赋值,只需要添加属性即可,见示例代码</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span> &gt;</span></div><div class="line">    姓名:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span>  <span class="attr">name</span>=<span class="string">"userName"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    年龄<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span>=<span class="string">"telNum"</span> <span class="attr">autofocus</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>使用注意:</strong><ul>
+<li>在没有该属性之前,能够使用<code>JavaScript</code>来指定元素</li>
+<li>如果页面中多个元素设置了该属性,最后一个会获得焦点</li>
+</ul>
+</li>
+</ul>
+<h2 id="form-表单关联"><a href="#form-表单关联" class="headerlink" title="form(表单关联)"></a>form(表单关联)</h2><blockquote>
+<p>当我们想要提交数据时,需要把<code>表单元素</code>放到对应的<code>form</code>标签中,这个属性的出现让<code>表单元素</code>的放置位置不在受到约束</p>
+</blockquote>
+<ul>
+<li><strong>使用方法:</strong><ul>
+<li>想要某个<code>表单外</code>元素跟<code>该表单</code>建立联系,只需要为元素添加属性<code>form=&quot;表单id&quot;</code>设置为想要建立联系的<code>表单id</code>即可</li>
+</ul>
+</li>
+<li>示例代码<ul>
+<li>让表单外输入爱好的<code>input</code>标签跟id为<code>userForm</code>表单建立联系</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">""</span> <span class="attr">id</span>=<span class="string">"userForm"</span> &gt;</span></div><div class="line">    姓名:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span>  <span class="attr">name</span>=<span class="string">"userName"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    年龄:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span>=<span class="string">"telNum"</span> <span class="attr">autofocus</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"submit"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></div><div class="line"></div><div class="line"><span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line">爱好:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"habbit"</span> <span class="attr">form</span>=<span class="string">"userForm"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>使用注意:</strong><ul>
+<li>虽然这个属性可以让元素的放置位置不在成为限制,但是编码时依旧建议,将元素放置到对应的表单中,除了兼容性问题以外,也为了提升代码的可读以及可维护性</li>
+</ul>
+</li>
+</ul>
+<h2 id="multiple-多选"><a href="#multiple-多选" class="headerlink" title="multiple(多选)"></a>multiple(多选)</h2><blockquote>
+<p>如果想要在某个<code>input</code>标签中选择多个值,可以使用该属性</p>
+</blockquote>
+<ul>
+<li><strong>适用情况:</strong><ul>
+<li>该属性可以用在type为<code>file</code>标签内</li>
+</ul>
+</li>
+<li>示例代码<ul>
+<li>选择多文件时,需要按住<code>ctrl</code>按钮</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"file"</span> <span class="attr">multiple</span> &gt;</span></div></pre></td></tr></table></figure>
+<h2 id="placeholder-占位提示"><a href="#placeholder-占位提示" class="headerlink" title="placeholder(占位提示)"></a>placeholder(占位提示)</h2><blockquote>
+<p>输入元素内默认显示一些提示信息,当用户输入之后自动消失,这种效果我们需要使用<code>JavaScript</code>来实现,知道出现了<code>placeholder</code>这个属性</p>
+</blockquote>
+<ul>
+<li><strong>使用方式:</strong><ul>
+<li>直接为该属性赋值想要提示的内容即可</li>
+</ul>
+</li>
+<li><strong>适用情况:</strong><ul>
+<li>想要不通过<code>JavaScript</code>来实现提示功能</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong><ul>
+<li>显示效果如下<br><img src="imgs/desk.jpg" alt="placeholder.png-2.2kB"></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span><span class="attr">placeholder</span>=<span class="string">"输入用户名"</span>&gt;</span></div></pre></td></tr></table></figure>
+<h1 id="新的表单元素"><a href="#新的表单元素" class="headerlink" title="新的表单元素"></a>新的表单元素</h1><p>标签（空格分隔）： HTML5</p>
+<blockquote>
+<p>除了在input标签中增加了一些新的<code>type</code>属性以外,<code>H5</code>也推出了一些新的表单元素,由于浏览器的兼容问题,使用频率并不广,了解即可 <a href="imgs/desk.jpg">w3cSchool_新表单元素</a></p>
+</blockquote>
+<h2 id="datalist"><a href="#datalist" class="headerlink" title="datalist"></a>datalist</h2><blockquote>
+<p>该元素规定了输入区域的选项列表,可以让用户有一些选项</p>
+</blockquote>
+<ul>
+<li><strong>测试代码:</strong><ul>
+<li>注:测试代码只是<code>body</code>内部的代码</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">网址:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"url"</span> <span class="attr">list</span>=<span class="string">"url_list"</span> <span class="attr">name</span>=<span class="string">"link"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"url_list"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">label</span>=<span class="string">"W3School"</span> <span class="attr">value</span>=<span class="string">"http://www.W3School.com.cn"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">label</span>=<span class="string">"Google"</span> <span class="attr">value</span>=<span class="string">"http://www.google.com"</span>/&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">label</span>=<span class="string">"Microsoft"</span> <span class="attr">value</span>=<span class="string">"http://www.microsoft.com"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></div><div class="line"></div><div class="line">电话: <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"tel"</span> <span class="attr">list</span>=<span class="string">"tel_list"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"tel_list"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"186xxx"</span> <span class="attr">label</span>=<span class="string">"移动"</span>&gt;</span>移动<span class="tag">&lt;/<span class="name">option</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"187xxx"</span> <span class="attr">label</span>=<span class="string">"联通"</span>&gt;</span>联通<span class="tag">&lt;/<span class="name">option</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"135xxx"</span> <span class="attr">label</span>=<span class="string">"天翼"</span>&gt;</span>天翼<span class="tag">&lt;/<span class="name">option</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li>datalist:<ul>
+<li>id:id属性,想要使用该<code>datalist</code>的元素需要通过list=<code>id</code>的方式来指定</li>
+</ul>
+</li>
+<li>option:<ul>
+<li>value:指定具体的值</li>
+<li>label:提示信息</li>
+</ul>
+</li>
+<li>注意:<ul>
+<li>如果input的type为<code>url</code>,<code>option</code>中对应的value需要使用<code>http://</code>开始</li>
+</ul>
+</li>
+</ul>
+<h2 id="keygen"><a href="#keygen" class="headerlink" title="keygen"></a><del>keygen</del></h2><blockquote>
+<p>keygen 元素是密钥对生成器（key-pair generator）。当提交表单时，会生成两个键，一个是私钥，一个公钥。<br>私钥（private key）存储于客户端，公钥（public key）则被发送到服务器。公钥可用于之后验证用户的客户端证书（client certificate），即实现<strong>非对称加密</strong><br>目前，浏览器对此元素的糟糕的支持度<code>不足以</code>使其成为一种有用的安全标准。</p>
+</blockquote>
+<ul>
+<li><strong>使用频率:</strong><code>低</code></li>
+</ul>
+<h2 id="output"><a href="#output" class="headerlink" title="output"></a><del>output</del></h2><blockquote>
+<p>属于新的语义标签:用来放置输出的内容,但是不能自动的计算结果,依旧需要通过js的方式来动态修改结果,只是相比于其他的标签,<code>语义性更强</code>。</p>
+</blockquote>
+<ul>
+<li><strong>使用频率:</strong><code>低</code></li>
+</ul>
+<h1 id="多媒体"><a href="#多媒体" class="headerlink" title="多媒体"></a>多媒体</h1><blockquote>
+<p>早期的因特网主要用来分享学术成果,但是对普通民众而言,更愿意在上面分享一些更有趣的内容,比如<code>视频</code>,<code>音频</code>,但这些技术在<code>html5</code>之前都不是由<code>html标签</code>提供的</p>
+</blockquote>
+<h2 id="网页音视频解决方案发展"><a href="#网页音视频解决方案发展" class="headerlink" title="网页音视频解决方案发展"></a>网页音视频解决方案发展</h2><blockquote>
+<p>虽然早期的<code>html</code>并没有提供支持视频或者音频播放的标签,但是这并不影响人们分享的欲望</p>
+</blockquote>
+<ul>
+<li><strong>支持方式1:</strong><ul>
+<li>使用<code>embed</code>直接将视频塞入页面,然后就可以使用<code>Windows Media Player</code>,<code>Apple QuickTime</code>或者其实的视频播放器来创建播放窗口</li>
+<li>但是这种方式对于视频本身不可控,兼容性问题也无法顾及</li>
+</ul>
+</li>
+<li><strong>支持方式2</strong><ul>
+<li>使用浏览器插件,一个是微软的<code>Silverlight</code>,还有使用最普遍的<code>Adobe Flash</code></li>
+<li><code>Flash</code>不但完全解决了浏览器支持问题,而且装机率之高让人咋舌(基本上99%的计算机都安装了Flash播放器)</li>
+<li>使用<code>Flash</code>播放视频除了要学习<code>Flash</code>这项技术本身以外,更关键的是在<code>iPhone</code>,<code>ipad</code>并不支持这项技术</li>
+<li>如果想要查看视频的播放方式,将鼠标移动到视频窗口,右键如果可以看到<code>Flash</code>等文字,那么该网站使用的就是Flash插件</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>多媒体标签:</strong><ul>
+<li><code>Html5</code>为了解决使用<code>Flash</code>的各种问题推出了多媒体标签</li>
+<li>由于视频格式问题,不同的浏览器对于相同格式的视频支持不同,需要准备多份视频</li>
+<li>无法对播放的视频提供很好的保护效果,因为用户可以直接对视频文件另存为</li>
+</ul>
+</li>
+<li><strong>总结:</strong><ul>
+<li>虽然<code>html5</code>中的多媒体标签有各种不好,但我们还是需要拥抱这项新的技术,因为他的用法,真的十分简单</li>
+</ul>
+</li>
+</ul>
+<h2 id="audio标签"><a href="#audio标签" class="headerlink" title="audio标签"></a>audio标签</h2><blockquote>
+<p>在w3c中对于<code>audio</code>的说明是这样的<a href="http://www.w3school.com.cn/html5/html_5_audio.asp" target="_blank" rel="external">audio标签</a></p>
+</blockquote>
+<ul>
+<li><strong>示例代码1:</strong><ul>
+<li>下面演示一种最简单的使用方式</li>
+<li>src:音频的地址</li>
+<li>controls:音频播放控制器</li>
+<li>autoplay:自动播放</li>
+<li>loop:循环</li>
+<li>poster:指定视频不播放时显示的封面</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">src</span>=<span class="string">"song.ogg"</span> <span class="attr">controls</span>=<span class="string">"controls"</span> <span class="attr">autoplay</span> <span class="attr">loop</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>示例代码2:</strong><ul>
+<li>由于音频格式在不同浏览器中支持情况不同,考虑兼容性问题,我们需要使用下述代码</li>
+<li>source:指定多个音频,如果找到了当前浏览器支持的,那么会直接使用,如果所有的<code>source</code>标签格式都不支持,会显示最后的文本内容<ul>
+<li>src:音频的地址</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"song.ogg"</span> <span class="attr">type</span>=<span class="string">"audio/ogg"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"song.mp3"</span> <span class="attr">type</span>=<span class="string">"audio/mpeg"</span>&gt;</span></div><div class="line">你的浏览器不支持此种格式</div><div class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="Video标签"><a href="#Video标签" class="headerlink" title="Video标签"></a>Video标签</h2><blockquote>
+<p><code>Video</code>标签用来播放视频,用法跟<code>audio</code>标签十分类似</p>
+</blockquote>
+<ul>
+<li><strong>示例代码1:</strong><ul>
+<li>src:视频地址</li>
+<li>controls:控制器</li>
+<li>autoplay:自动播放</li>
+<li>loop:循环</li>
+<li>width:宽度</li>
+<li>height:高度</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">"movie.ogg"</span> <span class="attr">controls</span> <span class="attr">autoplay</span> <span class="attr">loop</span> <span class="attr">width</span> = <span class="string">"200px"</span> <span class="attr">height</span> = <span class="string">"200px"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>示例代码2:</strong><ul>
+<li>由于视频在不同浏览器中支持情况不同,考虑兼容性问题,我们需要使用下述代码</li>
+<li><strong>source:</strong>指定多个视频,如果找到了当前浏览器支持的,那么会直接使用,如果所有的<code>source</code>标签格式都不支持,会显示最后的文本内容<ul>
+<li><strong>src:</strong>视频的地址</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"> <span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">"320"</span> <span class="attr">height</span>=<span class="string">"240"</span> <span class="attr">controls</span>=<span class="string">"controls"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"movie.ogg"</span> <span class="attr">type</span>=<span class="string">"video/ogg"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"movie.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span>&gt;</span></div><div class="line">你的浏览器不支持video标签</div><div class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></div></pre></td></tr></table></figure>
+<h1 id="两种进度条"><a href="#两种进度条" class="headerlink" title="两种进度条"></a>两种进度条</h1><p>标签（空格分隔）： HTML5</p>
+<hr>
+<blockquote>
+<p>在html5之前如果我们想要使用进度条,可以通过一些前端框架,或者自己使用控件搭建出类似的外观,但是在html5中推出了两个进度条控件,接下来就让我们来看看如何使用它们</p>
+</blockquote>
+<h2 id="process"><a href="#process" class="headerlink" title="process"></a>process</h2><ul>
+<li><strong>外观</strong><ul>
+<li>如果只是定义该元素<code>&lt;progress&gt;&lt;progress/&gt;</code>不设置任何内容,显示效果如下图</li>
+</ul>
+</li>
+</ul>
+<p><img src="imgs/desk.jpg" alt="progress.gif-2kB"></p>
+<ul>
+<li><strong>作用:</strong><ul>
+<li>用来显示任务的进度(进程)</li>
+<li>如果想要用来显示<code>度量值</code>(比如容量使用情况)请使用<code>meter</code>标签</li>
+</ul>
+</li>
+<li><strong>属性:</strong><ul>
+<li><strong>max:</strong> 总工作量</li>
+<li><strong>value:</strong> 已完成工作量</li>
+</ul>
+</li>
+<li><strong>兼容性:</strong><ul>
+<li>为了保证显示效果,可以再<code>progress</code>标签中写入内容,在当前浏览器无法显示该控件时,会转而显示内容</li>
+</ul>
+</li>
+</ul>
+<h2 id="meter"><a href="#meter" class="headerlink" title="meter"></a>meter</h2><ul>
+<li><strong>外观:</strong><ul>
+<li>通过属性值的搭配能够显示出多重不同的变化</li>
+</ul>
+</li>
+</ul>
+<p><img src="imgs/meter.png" alt="meter.png-2.2kB"></p>
+<ul>
+<li><strong>常见属性:</strong><ul>
+<li>high:规定较高的值</li>
+<li>low:规定较低的值</li>
+<li>max:规定最大值(可以超过,但是进度条已经满了)</li>
+<li>min:规定最小值</li>
+<li>value:规定度量的值</li>
+</ul>
+</li>
+<li><strong>示例代码:</strong><ul>
+<li>显示效果即截图</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meter</span> <span class="attr">class</span>=<span class="string">"class1"</span> <span class="attr">high</span>=<span class="string">"80"</span> <span class="attr">low</span>=<span class="string">"30"</span> <span class="attr">max</span>=<span class="string">"100"</span> <span class="attr">min</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"21"</span> &gt;</span><span class="tag">&lt;/<span class="name">meter</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meter</span> <span class="attr">class</span>=<span class="string">"class2"</span> <span class="attr">high</span>=<span class="string">"80"</span> <span class="attr">low</span>=<span class="string">"30"</span> <span class="attr">max</span>=<span class="string">"100"</span> <span class="attr">min</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"60"</span>&gt;</span><span class="tag">&lt;/<span class="name">meter</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meter</span> <span class="attr">class</span>=<span class="string">"class3"</span> <span class="attr">high</span>=<span class="string">"80"</span> <span class="attr">low</span>=<span class="string">"30"</span> <span class="attr">max</span>=<span class="string">"100"</span> <span class="attr">min</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"90"</span> &gt;</span><span class="tag">&lt;/<span class="name">meter</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">meter</span> <span class="attr">class</span>=<span class="string">"class4"</span> <span class="attr">high</span>=<span class="string">"80"</span> <span class="attr">low</span>=<span class="string">"30"</span> <span class="attr">max</span>=<span class="string">"100"</span> <span class="attr">min</span>=<span class="string">"10"</span> <span class="attr">value</span>=<span class="string">"100"</span> <span class="attr">optimum</span>=<span class="string">"10"</span> &gt;</span><span class="tag">&lt;/<span class="name">meter</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">br</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h2><blockquote>
+<p>两种进度条都能够用来显示进度,由于兼容性以及语义性的问题,在实际开发中需要<code>结合实际情况</code>决定是否使用它们(或者是使用对应的前端框架)。</p>
+</blockquote>
+<h1 id="Dom语法"><a href="#Dom语法" class="headerlink" title="Dom语法"></a>Dom语法</h1><blockquote>
+<p>在<code>jQuery</code>中我们可以通过选择器快速获取元素,这些新的选择器,在html5中提供了一个类似的方法</p>
+</blockquote>
+<h2 id="querySelector方法"><a href="#querySelector方法" class="headerlink" title="querySelector方法"></a>querySelector方法</h2><blockquote>
+<p>返回当前文档中<code>第一个</code>匹配特定选择器的元素</p>
+</blockquote>
+<ul>
+<li>示例代码：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var node = document.querySelector(css选择器);</div></pre></td></tr></table></figure>
+<h2 id="querySelectorAll"><a href="#querySelectorAll" class="headerlink" title="querySelectorAll"></a>querySelectorAll</h2><blockquote>
+<p>返回当前文档中<code>所有</code>匹配特定选择器的元素(返回值是数组)</p>
+</blockquote>
+<ul>
+<li>示例代码：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var nodeLists = document.querySelectorAll(css选择器);</div></pre></td></tr></table></figure>
+<h2 id="classList"><a href="#classList" class="headerlink" title="classList"></a>classList</h2><blockquote>
+<p>这个元素返回的是dom元素的<code>class 列表</code>,这个属性本身是只读的，但是我们可以通过几个方法去操作元素的<code>class</code></p>
+</blockquote>
+<ul>
+<li><strong>可用方法：</strong><ul>
+<li><strong>add</strong> ： 添加一个 class 到元素的 class 列表中</li>
+<li><strong>remove</strong> ： 从元素的 class 列表中移除一个 class</li>
+<li><strong>toggle</strong> ： 切换一个 class 是否存在于一个元素的 class 列表中</li>
+<li><strong>contains</strong> ： 查询一个指定的 class 是否存在于元素的 class 列表中</li>
+</ul>
+</li>
+<li><strong>示例代码：</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">title</span>&gt;</span>html5新增dom操作语法<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span></div><div class="line">		.top&#123;</div><div class="line">			width: 100%;</div><div class="line">			height: 100px;</div><div class="line">			background-color: red;</div><div class="line">		&#125;</div><div class="line">		.pink&#123;</div><div class="line">			border: 10px solid pink;</div><div class="line">		&#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">style</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">header</span> <span class="attr">class</span>=<span class="string">"pink yellow"</span>&gt;</span><span class="tag">&lt;/<span class="name">header</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">name</span>=<span class="string">""</span> <span class="attr">onclick</span>=<span class="string">"changeColor()"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined"></span></div><div class="line">	</div><div class="line"></div><div class="line">		function changeColor() &#123;</div><div class="line">		    // 选择器的方式</div><div class="line">		    // 获取元素</div><div class="line">		    var dom = document.querySelector("header");</div><div class="line"></div><div class="line">		    // 测试classList属性的方法</div><div class="line">		    // 添加class</div><div class="line">		    dom.classList.add("top");</div><div class="line">		    // 移除class</div><div class="line">		    dom.classList.remove('pink');</div><div class="line">	    	// 判断是否含有class</div><div class="line">		    alert(dom.classList.contains('orange'));</div><div class="line">		    // 如果有class 删除 如果没有class 添加</div><div class="line">		    dom.classList.toggle('pink');</div><div class="line">		&#125;</div><div class="line">	<span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure>
+<h1 id="H5-data-属性"><a href="#H5-data-属性" class="headerlink" title="H5_data*属性"></a>H5_data*属性</h1><blockquote>
+<p>data-*这个属性解决了自定义Html标签内属性取值的问题,只要我们想,可以往<code>HTML</code>标签中添加任意个数的属性</p>
+</blockquote>
+<ul>
+<li><strong>语法:</strong><ul>
+<li>data-:这个是固定格式</li>
+<li>data-xxx:xxx是自定义的值</li>
+</ul>
+</li>
+<li><strong>注意:</strong><ul>
+<li>属性名不应该包含任何大写字母，并且在前缀 “data-“ 之后必须有至少一个字符</li>
+<li>属性值可以是任意字符串</li>
+<li>不要使用纯数字,特殊字符等作为自定义值</li>
+<li>如果data之后使用<code>-</code>连接多个值,取值时,需要使用<code>驼峰命名</code></li>
+</ul>
+</li>
+<li><strong>示例代码:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"bird"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"fish"</span>&gt;</span>Salmon<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span>&gt;</span>Tarantula<span class="tag">&lt;/<span class="name">li</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>获取方式:</strong></li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">// 假定有这么一个元素</div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-type</span>=<span class="string">"bird"</span> <span class="attr">id</span>=<span class="string">"liObj"</span>&gt;</span>Owl<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">li</span> <span class="attr">data-animal-type</span>=<span class="string">"spider"</span> <span class="attr">id</span>=<span class="string">"liObj2"</span>&gt;</span>蜘蛛<span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></div><div class="line">    var domObj = document.getElementById("liObj");</div><div class="line">   var type = domObj.dataset["type"]</div><div class="line">   </div><div class="line">    var domObj2 = document.getElementById("liObj2");</div><div class="line">   var type2 = domObj.dataset["animalType"]</div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<ul>
+<li><strong>总结:</strong><ul>
+<li>属性名为:data-xxx <ul>
+<li>xxx为自定义值,不能使用大写字母(不建议使用纯数字,或者奇怪字符)</li>
+</ul>
+</li>
+<li><strong>获取方式:</strong><ul>
+<li>在js中获取了元素之后,通过<code>dataset[&quot;key&quot;]</code>即可获取保存的值</li>
+<li>其中key为<code>data-xxx</code>中 xxx的字母</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/04/HTML+CSS3第一天/" data-id="ciy2yz2b4000050o07kcenq8r" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/04/HTML+CSS3第一天/">HTML第一天</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
