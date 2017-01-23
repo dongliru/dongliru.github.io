@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>JavaScript基础 | dong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="##弱类型的脚本语言
+
+解析执行与编译执行编译执行：把代码编译成CPU认识的语言文件，然后整体的执行解析执行：一行一行解析，解析一行执行一行
+弱类型脚本语言脚本语言：弥补编译语言的不足而存在，作为补充语言，不用编译弱类型语言：简单理解为定义一个变量，可以有多钟数据类型、变量
+命名规则
+变量命名必须以字母或者是下划线或者$为开头
+变量名长度不能超过255个字符
+变量名中不允许使用空格，首个字不能为数">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript基础">
+<meta property="og:url" content="http://yoursite.com/2016/04/05/JavaScript基础/index.html">
+<meta property="og:site_name" content="dong">
+<meta property="og:description" content="##弱类型的脚本语言
+
+解析执行与编译执行编译执行：把代码编译成CPU认识的语言文件，然后整体的执行解析执行：一行一行解析，解析一行执行一行
+弱类型脚本语言脚本语言：弥补编译语言的不足而存在，作为补充语言，不用编译弱类型语言：简单理解为定义一个变量，可以有多钟数据类型、变量
+命名规则
+变量命名必须以字母或者是下划线或者$为开头
+变量名长度不能超过255个字符
+变量名中不允许使用空格，首个字不能为数">
+<meta property="og:updated_time" content="2017-01-23T12:56:38.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JavaScript基础">
+<meta name="twitter:description" content="##弱类型的脚本语言
+
+解析执行与编译执行编译执行：把代码编译成CPU认识的语言文件，然后整体的执行解析执行：一行一行解析，解析一行执行一行
+弱类型脚本语言脚本语言：弥补编译语言的不足而存在，作为补充语言，不用编译弱类型语言：简单理解为定义一个变量，可以有多钟数据类型、变量
+命名规则
+变量命名必须以字母或者是下划线或者$为开头
+变量名长度不能超过255个字符
+变量名中不允许使用空格，首个字不能为数">
+  
+    <link rel="alternate" href="/atom.xml" title="dong" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">dong</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-JavaScript基础" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/04/05/JavaScript基础/" class="article-date">
+  <time datetime="2016-04-04T16:00:00.000Z" itemprop="datePublished">2016-04-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      JavaScript基础
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>##弱类型的脚本语言</p>
+<ol>
+<li>解析执行与编译执行<br>编译执行：把代码编译成CPU认识的语言文件，然后整体的执行<br>解析执行：一行一行解析，解析一行执行一行</li>
+<li>弱类型脚本语言<br>脚本语言：弥补编译语言的不足而存在，作为补充语言，不用编译<br>弱类型语言：简单理解为定义一个变量，可以有多钟数据类型、<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2></li>
+<li>命名规则</li>
+<li>变量命名必须以字母或者是下划线或者$为开头</li>
+<li>变量名长度不能超过255个字符</li>
+<li>变量名中不允许使用空格，首个字不能为数字</li>
+<li>不使用脚本语言中保留的关键字及保留字作为变量名</li>
+<li>变量名区分大小写</li>
+<li>汉语可以作为变量名但是不建议使用<br>##undefined和null<br>注意：<ol>
+<li>null和undefined有最大的相似性，看看null==undefined的结果为true也更加能说明这点，但是null===undefined的结果为false</li>
+<li>任何数据类型和undefined运算都是NaN</li>
+<li>任何值和null运算，null可看作0运算<h2 id="函数返回值"><a href="#函数返回值" class="headerlink" title="函数返回值"></a>函数返回值</h2></li>
+<li>函数程序运行后的结果外部需要的时候，我们不直接给予，需要通过return返回</li>
+<li>函数执行后剩下结果就是返回值</li>
+<li>如果函数没有使用return，那么函数有默认的返回值：undefined</li>
+<li>如果函数使用return，那么跟在return后面的值，就是函数的返回值</li>
+<li>如果函数使用return，但是return后面没有任何值，那么函数的返回值也是undefined</li>
+<li>函数使用return后，这个函数会在执行完return语句后停止并立即退出，后面的代码不再执行<br>##变量和作用域</li>
+</ol>
+</li>
+<li>全局变量<br>哪里都可以访问到的变量</li>
+<li>局部变量<br>函数内部的变量，只有函数内部可以访问到</li>
+<li><p>隐式全局变量就是隐藏的全局变量，不好被发现</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span>  <span class="title">fn</span>（）</span>&#123;</div><div class="line"><span class="keyword">var</span>  a  =  b  =  c  =  <span class="number">1</span>;   <span class="comment">// b和c就是隐式全局变量（等号）</span></div><div class="line"><span class="keyword">var</span>  a = <span class="number">1</span>;  b = <span class="number">2</span>;  c = <span class="number">3</span>;     <span class="comment">// b和c就是隐式全局变量（分号）</span></div><div class="line"><span class="keyword">var</span>  a = <span class="number">1</span> ,  b = <span class="number">2</span> ,  c = <span class="number">3</span>;    <span class="comment">// b和c就不是隐式全局变量（逗号）</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>变量声明提升<br>函数中，定义变量在使用变量之后。（先提升变量，后提升函数）<br>值提升变量名，不提升变量值，容易出现undefined。计算后形成NaN。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">fn</span>(<span class="params"></span>)</span>&#123;</div><div class="line"><span class="comment">// var aaa;</span></div><div class="line"><span class="built_in">console</span>.log(aaa);</div><div class="line"><span class="keyword">var</span> aaa = <span class="number">1</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>小知识</p>
+<ol>
+<li>函数不调用不执行</li>
+<li>函数名就等于整个函数</li>
+<li>加载函数的时候只加载函数名，不加载函数体</li>
+<li>函数相当于局部变量</li>
+<li>就近原则使用变量</li>
+<li>两个平级的函数中的变量不会相互影响</li>
+</ol>
+</li>
+<li>函数高级</li>
+<li>匿名函数的调用<ul>
+<li>直接调用或者自调用</li>
+<li>事件绑定</li>
+<li>定时器</li>
+</ul>
+</li>
+<li>函数是一种类型</li>
+<li>函数可以作为参数</li>
+<li>函数可以调用自己（递归）<br>##对象和面向对象</li>
+</ol>
+<ul>
+<li>this<br> 1.this只出现在函数中<br> 2.谁调用，this就指的是谁</li>
+<li>new<ol>
+<li>开辟内存空间，存储新创建的对象</li>
+<li>把this设置为当前对象</li>
+<li>返回新创建的对象</li>
+</ol>
+</li>
+<li><p>for..in </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">Var json = &#123;“aaa”: <span class="number">1</span>,“bbb”: <span class="number">2</span>,“ccc”: <span class="number">3</span>,“ddd”: <span class="number">4</span>&#125;</div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> key <span class="keyword">in</span> json)&#123;</div><div class="line"><span class="comment">//key代表aaa,bbb.....等</span></div><div class="line"><span class="comment">//json[key]代表1,2,3....等</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>参数和传值问题</p>
+<ol>
+<li>简单类型数据做参数，函数内部对参数的修改不应影响外部变量简单类型传数值。</li>
+<li>复杂类型数据做参数，函数内部对参数的修改会应影响外部变量复杂类型传地址</li>
+</ol>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/04/05/JavaScript基础/" data-id="ciya4a5x40000w0o0r3l4d36x" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/12/04/HTML+CSS3第一天/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          HTML第一天
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/04/04/css3第二天/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">css3第二天</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/12/04/HTML+CSS3第一天/">HTML第一天</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/05/JavaScript基础/">JavaScript基础</a>
+          </li>
+        
+          <li>
+            <a href="/2016/04/04/css3第二天/">css3第二天</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
